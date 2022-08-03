@@ -1,3 +1,3 @@
-INSERT INTO tb_category(name) VALUES ('Carnes');
-INSERT INTO tb_category(name) VALUES ('Bebidas');
-INSERT INTO tb_category(name) VALUES ('Complementos');
+INSERT INTO tb_category(name, created_At) VALUES ('Carnes', NOW());
+INSERT INTO tb_category(name, created_At) VALUES ('Bebidas', NOW());
+INSERT INTO tb_category(name, created_At) VALUES ('Complementos', NOW());
